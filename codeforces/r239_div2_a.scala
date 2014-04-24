@@ -1,9 +1,5 @@
 object A extends App {
-  
-  def calc(in:Array[Int]): Int = {
-    in.sum * 5 + in.length*15
-  }
-  
+  val calc:Array[Int] => Int = { in => in.sum * 5 + in.length*15 }
   var ans = (1<<30)
   val n = readInt()
   val t = readLine()
