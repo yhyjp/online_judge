@@ -1,3 +1,4 @@
+// http://codeforces.com/contest/408/problem/A
 object A extends App {
   val calc:Array[Int] => Int = { in => in.sum * 5 + in.length*15 }
   var ans = (1<<30)
