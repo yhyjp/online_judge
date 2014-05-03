@@ -1,3 +1,4 @@
+// http://codeforces.com/contest/427/problem/B
 object B extends App {
   val sc = new java.util.Scanner(System.in)
   val n, t, c = sc.nextInt()
