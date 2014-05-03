@@ -1,3 +1,4 @@
+// http://codeforces.com/contest/400/problem/A
 object A extends App {
   val n = readInt()
   val in = Array.fill(n)(readLine())
