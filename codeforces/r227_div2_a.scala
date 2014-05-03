@@ -1,3 +1,4 @@
+// http://codeforces.com/contest/387/problem/A
 import scala.util.matching.Regex
 
 object A extends App {
