@@ -1,3 +1,4 @@
+// http://codeforces.com/contest/389/problem/A
 object A {
   def gcd(a: Int, b: Int): Int = { if (a<b) gcd(b, a) else if (b==0) a else gcd(b,a%b) }
   def main(args: Array[String]) {

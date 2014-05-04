@@ -1,3 +1,4 @@
+// http://codeforces.com/contest/416/problem/B
 import java.util.Scanner
 
 object B extends App {

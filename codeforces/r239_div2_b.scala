@@ -1,3 +1,4 @@
+// http://codeforces.com/contest/408/problem/B
 object B extends App {
   val a, b = readLine();
   val ct = (s: String, c: Char) => { s.count(_ == c) }
